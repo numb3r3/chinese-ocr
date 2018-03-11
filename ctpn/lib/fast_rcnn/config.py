@@ -18,7 +18,7 @@ import os
 import os.path as osp
 import numpy as np
 from time import strftime, localtime
-from easydict import EasyDict as edict
+from .easydict import EasyDict as edict
 
 __C = edict()
 # Consumers can get config by:
