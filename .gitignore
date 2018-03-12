@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+*.c
+
+# Distribution / packaging
+build/
+dist/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Temporary files
+*.swp
+

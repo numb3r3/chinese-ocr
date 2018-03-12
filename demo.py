@@ -4,10 +4,13 @@ from glob import glob
 import numpy as np
 from PIL import Image
 import time
+import sys
 paths = glob('./test/*.*')
 
 if __name__ =='__main__':
-    im = Image.open(paths[1])
+    image_path = sys.argv[1]
+
+    im = Image.open(image_path)
     img = np.array(im.convert('RGB'))
     t = time.time()
     result,img,angle = model.model(img,model='keras')
